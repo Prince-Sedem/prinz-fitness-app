@@ -6,7 +6,7 @@ import { createBottomTabNavigator } from '@react-navigation/bottom-tabs';
 import Splash from './screens/Splash';
 import SignIn from './screens/SignIn';
 import SignUp from './screens/SignUp';
-import HomeScreen from './screens/Tabs/HomeScreen';
+import HomeScreenStack from './screens/Tabs/HomeScreenStack/HomeScreenStack';
 import HealthTipsScreen from './screens/Tabs/HealthTipsScreen';
 import ProfileScreen from './screens/Tabs/ProfileScreen';
 import { Image } from 'react-native';
@@ -49,15 +49,17 @@ function TabNavigator() {
       tabBarStyle: {
         padding: 2,
         margin: 2,
-      }  
+      }
+        
 
      }} >
       <Tab.Screen 
       name="Home" 
-      component={HomeScreen}
+      component={HomeScreenStack}
       options={{title:"Home", tabBarIcon:({focused}) =>  
       (<Image source={require('./assets/images/home.png')} 
       style={{width: 30, height: 30, tintColor: focused? "#22c55e":"#5a1c2c" }} />),
+      headerShown: false
       }} 
       />
       <Tab.Screen 
