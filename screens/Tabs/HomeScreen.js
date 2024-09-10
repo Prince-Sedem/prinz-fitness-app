@@ -4,7 +4,7 @@ import {widthPercentageToDP as wp, heightPercentageToDP as hp} from 'react-nativ
 
 
 
-export default function HomeScreen() {
+export default function HomeScreen({navigation}) {
     
     return (
         <ScrollView>
@@ -37,13 +37,13 @@ export default function HomeScreen() {
 
         </SafeAreaView>
                 <View className="flex-row justify-evenly mt-3">
-                    <TouchableOpacity>
+                    <TouchableOpacity onPress={() => navigation.navigate("Chest")}>
                         <View className="relative">
                             <Image  source={require('../Tabs/images2/gym-chest.png')} className="w-[190px] h-40 rounded-xl"/>
                             <Text className="absolute ml-1 mt-32  font-bold text-white ">CHEST</Text>
                         </View>
                     </TouchableOpacity>
-                    <TouchableOpacity>
+                    <TouchableOpacity onPress={() => navigation.navigate("Abs")}>
                         <View className="relative">
                             <Image  source={require('../Tabs/images2/gym-abs2.png')} className="w-[190px] h-40 rounded-xl"/>
                             <Text className="absolute ml-1 mt-32  font-bold text-white ">ABS</Text>
@@ -52,13 +52,13 @@ export default function HomeScreen() {
                    
                 </View>
                 <View className="flex-row justify-evenly mt-3">
-                    <TouchableOpacity>
+                    <TouchableOpacity onPress={() => navigation.navigate("Biceps")}>
                         <View className="relative">
                             <Image  source={require('../Tabs/images2/gym-biceps.png')} className="w-[190px] h-40 rounded-xl"/>
                             <Text className="absolute ml-1 mt-32  font-bold text-white ">BICEPS</Text>
                         </View>
                     </TouchableOpacity>
-                    <TouchableOpacity>
+                    <TouchableOpacity onPress={() => navigation.navigate("Triceps")}>
                         <View className="relative">
                             <Image  source={require('../Tabs/images2/gym-triceps.png')} className="w-[190px] h-40 rounded-xl"/>
                             <Text className="absolute ml-1 mt-32  font-bold text-white ">TRICEPS</Text>
@@ -67,13 +67,13 @@ export default function HomeScreen() {
                    
                 </View>
                 <View className="flex-row justify-evenly mt-3">
-                    <TouchableOpacity>
+                    <TouchableOpacity onPress={() => navigation.navigate("Back")}>
                         <View className="relative">
                             <Image  source={require('../Tabs/images2/gym-back.png')} className="w-[190px] h-40 rounded-xl"/>
                             <Text className="absolute ml-1 mt-32  font-bold text-white ">BACK</Text>
                         </View>
                     </TouchableOpacity>
-                    <TouchableOpacity>
+                    <TouchableOpacity onPress={() => navigation.navigate("Shoulders")}>
                         <View className="relative">
                             <Image  source={require('../Tabs/images2/gym-shoulders.png')} className="w-[190px] h-40 rounded-xl"/>
                             <Text className="absolute ml-1 mt-32  font-bold text-white ">SHOULDERS</Text>
@@ -82,13 +82,13 @@ export default function HomeScreen() {
                    
                 </View>
                 <View className="flex-row justify-evenly mt-3">
-                    <TouchableOpacity>
+                    <TouchableOpacity onPress={() => navigation.navigate("Forearms")}>
                         <View className="relative">
                             <Image  source={require('../Tabs/images2/gym-forearm.png')} className="w-[190px] h-40 rounded-xl"/>
                             <Text className="absolute ml-1 mt-32  font-bold text-white ">FOREARMS</Text>
                         </View>
                     </TouchableOpacity>
-                    <TouchableOpacity>
+                    <TouchableOpacity onPress={() => navigation.navigate("Buttocks")}>
                         <View className="relative">
                             <Image  source={require('../Tabs/images2/gym-buttock.png')} className="w-[190px] h-40 rounded-xl"/>
                             <Text className="absolute ml-1 mt-32  font-bold text-white ">BUTTOCKS</Text>
@@ -97,13 +97,13 @@ export default function HomeScreen() {
                    
                 </View>
                 <View className="flex-row justify-evenly mt-3">
-                    <TouchableOpacity>
+                    <TouchableOpacity onPress={() => navigation.navigate("Legs")}>
                         <View className="relative">
                             <Image  source={require('../Tabs/images2/gym-legs.png')} className="w-[190px] h-40 rounded-xl"/>
                             <Text className="absolute ml-1 mt-32  font-bold text-white ">LEGS</Text>
                         </View>
                     </TouchableOpacity>
-                    <TouchableOpacity>
+                    <TouchableOpacity onPress={() => navigation.navigate("Calfs")}>
                         <View className="relative">
                             <Image  source={require('../Tabs/images2/gym-calf.png')} className="w-[190px] h-40 rounded-xl"/>
                             <Text className="absolute ml-1 mt-32  font-bold text-white ">CALFS</Text>
