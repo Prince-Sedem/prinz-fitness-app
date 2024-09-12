@@ -11,15 +11,19 @@ import Forearms from './Forearms';
 import Buttocks from './Buttocks';
 import Legs from './Legs';
 import Calfs from './Calfs';
+import Chest2 from './Chest2';
+import Abs2 from './Abs2';
 
 const HomeStack = createNativeStackNavigator();
+const ChestStack = createNativeStackNavigator();
+const AbsStack = createNativeStackNavigator();
 
-export default function HomeScreenStack() {
+function HomeScreenStack() {
   return (
         <HomeStack.Navigator>
           <HomeStack.Screen name="Home" component={HomeScreen} />
-          <HomeStack.Screen name="Chest" component={Chest} />
-          <HomeStack.Screen name="Abs" component={Abs} />
+          <HomeStack.Screen name="Chest" component={ChestScreenStack} />
+          <HomeStack.Screen name="Abs" component={AbsScreenStack} />
           <HomeStack.Screen name="Biceps" component={Biceps} />
           <HomeStack.Screen name="Triceps" component={Triceps} />
           <HomeStack.Screen name="Back" component={Back} />
@@ -31,3 +35,32 @@ export default function HomeScreenStack() {
         </HomeStack.Navigator>
   )
 }
+function ChestScreenStack() {
+  return (
+        <ChestStack.Navigator>
+          <ChestStack.Screen name="Chest" component={Chest} 
+          options={{headerShown: false}}
+          />
+          <ChestStack.Screen name="Chest2" component={Chest2} 
+          options={{headerShown: false}}
+          />
+        </ChestStack.Navigator>
+  )
+}
+function AbsScreenStack() {
+  return (
+        <AbsStack.Navigator>
+          <AbsStack.Screen name="Abs" component={Abs} 
+          options={{headerShown: false}}
+          />
+          <AbsStack.Screen name="Abs2" component={Abs2} 
+          options={{headerShown: false}}
+          />
+        </AbsStack.Navigator>
+  )
+}
+
+
+
+
+export default HomeScreenStack;
