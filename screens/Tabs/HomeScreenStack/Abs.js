@@ -32,7 +32,6 @@ export default function Chest({navigation}) {
             </View>
           </TouchableOpacity>  
           <TouchableOpacity>
-          <TouchableOpacity>
             <View>
               <Image source={require('../images2/hanging-leg-raises.png')} className="m-3 w-[382px] h-[200px] rounded-lg"/>
               <Text className="absolute ml-5 mt-44  font-bold text-white ">Hanging Leg Raises</Text>
@@ -44,6 +43,7 @@ export default function Chest({navigation}) {
               <Text className="absolute ml-5 mt-44  font-bold text-white ">Bench Side Bends</Text>
             </View>
           </TouchableOpacity>  
+          <TouchableOpacity>
             <View>
               <Image source={require('../images2/crunches.png')} className="m-3 w-[382px] h-[200px] rounded-lg"/>
               <Text className="absolute ml-5 mt-44  font-bold text-white ">Crunches</Text>
