@@ -15,80 +15,104 @@ export default function Shoulders({navigation}) {
         <ScrollView className="mt-2 mb-2 h-[630px] ">
           <TouchableOpacity>
             <View>
-              <Image source={require('../images2/cable-pushdown.png')} className="m-3 w-[382px] h-[200px] rounded-lg"/>
-              <Text className="absolute ml-5 mt-44  font-bold text-white ">Cable Push Down</Text>
+              <Image source={require('../images2/machine-shoulder-press.png')} className="m-3 w-[382px] h-[200px] rounded-lg"/>
+              <Text className="absolute ml-5 mt-44  font-bold text-white ">Seated Machine Shoulder Press</Text>
             </View>
           </TouchableOpacity>  
           <TouchableOpacity>
             <View>
-              <Image source={require('../images2/pushdown-1arm-reverse.png')} className="m-3 w-[382px] h-[200px] rounded-lg"/>
-              <Text className="absolute ml-5 mt-44  font-bold text-white ">One Arm Cable Push Down</Text>
+              <Image source={require('../images2/nautilus-raises.png')} className="m-3 w-[382px] h-[200px] rounded-lg"/>
+              <Text className="absolute ml-5 mt-44  font-bold text-white ">Nautilus Lateral Raise</Text>
             </View>
           </TouchableOpacity>  
           <TouchableOpacity>
             <View>
-              <Image source={require('../images2/pushdown-reverse.png')} className="m-3 w-[382px] h-[200px] rounded-lg"/>
-              <Text className="absolute ml-5 mt-44  font-bold text-white ">Reverse Cable Push Down</Text>
+              <Image source={require('../images2/cable-front-raise.png')} className="m-3 w-[382px] h-[200px] rounded-lg"/>
+              <Text className="absolute ml-5 mt-44  font-bold text-white ">One Arm Cable Front Raise</Text>
             </View>
           </TouchableOpacity>  
           <TouchableOpacity>
             <View>
-              <Image source={require('../images2/pushdown-1arm-reverse.png')} className="m-3 w-[382px] h-[200px] rounded-lg"/>
-              <Text className="absolute ml-5 mt-44  font-bold text-white ">Reverse One Arm Cable Push Down</Text>
+              <Image source={require('../images2/cable-upright-row.png')} className="m-3 w-[382px] h-[200px] rounded-lg"/>
+              <Text className="absolute ml-5 mt-44  font-bold text-white ">Cable Upright Row</Text>
             </View>
           </TouchableOpacity>  
           <TouchableOpacity>
             <View>
-              <Image source={require('../images2/wide-pull-up.png')} className="m-3 w-[382px] h-[200px] rounded-lg"/>
-              <Text className="absolute ml-5 mt-44  font-bold text-white ">Wide Grip Pull Up</Text>
+              <Image source={require('../images2/bent-over-cable-lateral-raise.png')} className="m-3 w-[382px] h-[200px] rounded-lg"/>
+              <Text className="absolute ml-5 mt-44  font-bold text-white ">Bent Over Cable Lateral Raise</Text>
             </View>
           </TouchableOpacity>  
           <TouchableOpacity>
             <View>
-              <Image source={require('../images2/rope-pushdown.png')} className="m-3 w-[382px] h-[200px] rounded-lg"/>
-              <Text className="absolute ml-5 mt-44  font-bold text-white ">Rope Push Down</Text>
+              <Image source={require('../images2/leaning-lateral-raise.png')} className="m-3 w-[382px] h-[200px] rounded-lg"/>
+              <Text className="absolute ml-5 mt-44  font-bold text-white ">Cable Leaning Lateral Raise</Text>
             </View>
           </TouchableOpacity>  
           <TouchableOpacity>
             <View>
-              <Image source={require('../images2/dips.png')} className="m-3 w-[382px] h-[200px] rounded-lg"/>
-              <Text className="absolute ml-5 mt-44  font-bold text-white ">Dips</Text>
+              <Image source={require('../images2/rear-delt-ropepull.png')} className="m-3 w-[382px] h-[200px] rounded-lg"/>
+              <Text className="absolute ml-5 mt-44  font-bold text-white ">Rear Delt Rope Pull</Text>
             </View>
           </TouchableOpacity>  
           <TouchableOpacity>
             <View>
-              <Image source={require('../images2/lying-triceps-extension.png')} className="m-3 w-[382px] h-[200px] rounded-lg"/>
-              <Text className="absolute ml-5 mt-44  font-bold text-white">Lying Triceps Extension</Text>
+              <Image source={require('../images2/dumbbell-rear-delt.png')} className="m-3 w-[382px] h-[200px] rounded-lg"/>
+              <Text className="absolute ml-5 mt-44  font-bold text-white">Dumbbell Rear Delt Row</Text>
+            </View>
+          </TouchableOpacity>   
+          <TouchableOpacity>
+            <View>
+              <Image source={require('../images2/standing-dumbbell-press.png')} className="m-3 w-[382px] h-[200px] rounded-lg"/>
+              <Text className="absolute ml-5 mt-44  font-bold text-white">Dumbbell Standing Press</Text>
             </View>
           </TouchableOpacity>  
           <TouchableOpacity>
             <View>
-              <Image source={require('../images2/dumbbell-triceps-extension.png')} className="m-3 w-[382px] h-[200px] rounded-lg"/>
-              <Text className="absolute ml-5 mt-44  font-bold text-white ">Dumbbell Triceps Extension</Text>
+              <Image source={require('../images2/1arm-dumbbell-press.png')} className="m-3 w-[382px] h-[200px] rounded-lg"/>
+              <Text className="absolute ml-5 mt-44  font-bold text-white ">Dumbbell One Arm Standing Press</Text>
             </View>
           </TouchableOpacity>  
           <TouchableOpacity>
             <View>
-              <Image source={require('../images2/1arm-triceps-extension.png')} className="m-3 w-[382px] h-[200px] rounded-lg"/>
-              <Text className="absolute ml-5 mt-44  font-bold text-white">One Arm Dumbbell Triceps Extension</Text>
+              <Image source={require('../images2/dumbbell-seated-press.png')} className="m-3 w-[382px] h-[200px] rounded-lg"/>
+              <Text className="absolute ml-5 mt-44  font-bold text-white ">Dumbbell Seated Press</Text>
             </View>
           </TouchableOpacity>  
           <TouchableOpacity>
             <View>
-              <Image source={require('../images2/seated-triceps-extension.png')} className="m-3 w-[382px] h-[200px] rounded-lg"/>
-              <Text className="absolute ml-5 mt-44  font-bold text-white ">Seated Dumbbell Triceps Extension</Text>
+              <Image source={require('../images2/1arm-dumbbell-seated-press.png')} className="m-3 w-[382px] h-[200px] rounded-lg"/>
+              <Text className="absolute ml-5 mt-44  font-bold text-white ">Dumbbell One Arm Seated Press</Text>
             </View>
           </TouchableOpacity>  
           <TouchableOpacity>
             <View>
-              <Image source={require('../images2/overhead-triceps-extension.png')} className="m-3 w-[382px] h-[200px] rounded-lg"/>
-              <Text className="absolute ml-5 mt-44  font-bold text-white ">Overhead Triceps Extension</Text>
+              <Image source={require('../images2/barbell-front-raise.png')} className="m-3 w-[382px] h-[200px] rounded-lg"/>
+              <Text className="absolute ml-5 mt-44  font-bold text-white ">Barbell Front Raises</Text>
             </View>
           </TouchableOpacity>  
           <TouchableOpacity>
             <View>
-              <Image source={require('../images2/triceps-kickback.png')} className="m-3 w-[382px] h-[200px] rounded-lg"/>
-              <Text className="absolute ml-5 mt-44  font-bold text-white ">Dumbbell Triceps Kickback</Text>
+              <Image source={require('../images2/shoulder-press-front.png')} className="m-3 w-[382px] h-[200px] rounded-lg"/>
+              <Text className="absolute ml-5 mt-44  font-bold text-white ">Barbell Front Shoulder Press</Text>
+            </View>
+          </TouchableOpacity>  
+          <TouchableOpacity>
+            <View>
+              <Image source={require('../images2/shoulder-press-back.png')} className="m-3 w-[382px] h-[200px] rounded-lg"/>
+              <Text className="absolute ml-5 mt-44  font-bold text-white ">Barbell Back Shoulder Press</Text>
+            </View>
+          </TouchableOpacity>  
+          <TouchableOpacity>
+            <View>
+              <Image source={require('../images2/dumbbell-arnold-press.png')} className="m-3 w-[382px] h-[200px] rounded-lg"/>
+              <Text className="absolute ml-5 mt-44  font-bold text-white ">Dumbbell Arnold Press</Text>
+            </View>
+          </TouchableOpacity>  
+          <TouchableOpacity>
+            <View>
+              <Image source={require('../images2/weighted-front-raise.png')} className="m-3 w-[382px] h-[200px] rounded-lg"/>
+              <Text className="absolute ml-5 mt-44  font-bold text-white ">Weighted Front Raise</Text>
             </View>
           </TouchableOpacity>  
         </ScrollView>
