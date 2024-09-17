@@ -97,6 +97,12 @@ export default function Back({navigation}) {
               <Text className="absolute ml-5 mt-44  font-bold text-white ">Inverted Row</Text>
             </View>
           </TouchableOpacity>  
+          <TouchableOpacity>
+            <View>
+              <Image source={require('../images2/vbar-lat-pulldown.png')} className="m-3 w-[382px] h-[200px] rounded-lg"/>
+              <Text className="absolute ml-5 mt-44  font-bold text-white ">V-Bar Lat Pull Down</Text>
+            </View>
+          </TouchableOpacity>  
         </ScrollView>
     </View>
   )
