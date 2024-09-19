@@ -15,26 +15,50 @@ export default function Buttocks2({navigation}) {
         <ScrollView className="mt-2 mb-2 h-[630px] ">
           <TouchableOpacity>
             <View>
-              <Image source={require('../images2/crunches.png')} className="m-3 w-[382px] h-[200px] rounded-lg"/>
-              <Text className="absolute ml-5 mt-44  font-bold text-white ">Crunches</Text>
+              <Image source={require('../images2/bridging-workout.png')} className="m-3 w-[382px] h-[200px] rounded-lg"/>
+              <Text className="absolute ml-5 mt-44  font-bold text-white ">Bridging</Text>
             </View>
           </TouchableOpacity>  
           <TouchableOpacity>
             <View>
-              <Image source={require('../images2/pelvic-tilt.png')} className="m-3 w-[382px] h-[200px] rounded-lg"/>
-              <Text className="absolute ml-5 mt-44  font-bold text-white ">Pelvic Tilt</Text>
+              <Image source={require('../images2/lunge-home.png')} className="m-3 w-[382px] h-[200px] rounded-lg"/>
+              <Text className="absolute ml-5 mt-44  font-bold text-white ">Lunge</Text>
             </View>
           </TouchableOpacity> 
           <TouchableOpacity>
             <View>
-              <Image source={require('../images2/sit-ups.png')} className="m-3 w-[382px] h-[200px] rounded-lg"/>
-              <Text className="absolute ml-5 mt-44  font-bold text-white ">Sit Ups</Text>
+              <Image source={require('../images2/jump-squat.png')} className="m-3 w-[382px] h-[200px] rounded-lg"/>
+              <Text className="absolute ml-5 mt-44  font-bold text-white ">Squats Jump</Text>
             </View>
-          </TouchableOpacity>  
+          </TouchableOpacity> 
           <TouchableOpacity>
             <View>
-              <Image source={require('../images2/twist-crunch.png')} className="m-3 w-[382px] h-[200px] rounded-lg"/>
-              <Text className="absolute ml-5 mt-44  font-bold text-white">Twist Crunch</Text>
+              <Image source={require('../images2/squats-home.png')} className="m-3 w-[382px] h-[200px] rounded-lg"/>
+              <Text className="absolute ml-5 mt-44  font-bold text-white ">Squats</Text>
+            </View>
+          </TouchableOpacity> 
+          <TouchableOpacity>
+            <View>
+              <Image source={require('../images2/flutter-kicks.png')} className="m-3 w-[382px] h-[200px] rounded-lg"/>
+              <Text className="absolute ml-5 mt-44  font-bold text-white ">Flutter Kicks</Text>
+            </View>
+          </TouchableOpacity> 
+          <TouchableOpacity>
+            <View>
+              <Image source={require('../images2/floor-hip-extension.png')} className="m-3 w-[382px] h-[200px] rounded-lg"/>
+              <Text className="absolute ml-5 mt-44  font-bold text-white ">Floor Hip Extension</Text>
+            </View>
+          </TouchableOpacity> 
+          <TouchableOpacity>
+            <View>
+              <Image source={require('../images2/leg-raise.png')} className="m-3 w-[382px] h-[200px] rounded-lg"/>
+              <Text className="absolute ml-5 mt-44  font-bold text-white ">Leg Raise</Text>
+            </View>
+          </TouchableOpacity>   
+          <TouchableOpacity>
+            <View>
+              <Image source={require('../images2/step-ups.png')} className="m-3 w-[382px] h-[200px] rounded-lg"/>
+              <Text className="absolute ml-5 mt-44  font-bold text-white">Step Ups</Text>
             </View>
           </TouchableOpacity>   
           <TouchableOpacity>
@@ -48,13 +72,7 @@ export default function Buttocks2({navigation}) {
               <Image source={require('../images2/side-plank.png')} className="m-3 w-[382px] h-[200px] rounded-lg"/>
               <Text className="absolute ml-5 mt-44  font-bold text-white ">Side Plank</Text>
             </View>
-          </TouchableOpacity>   
-          <TouchableOpacity>
-            <View>
-              <Image source={require('../images2/home-chest-press.png')} className="m-3 w-[382px] h-[200px] rounded-lg"/>
-              <Text className="absolute ml-5 mt-44  font-bold text-white ">Push Ups</Text>
-            </View>
-          </TouchableOpacity>  
+          </TouchableOpacity>
           <TouchableOpacity>
             <View>
               <Image source={require('../images2/home-incline.png')} className="m-3 w-[382px] h-[200px] rounded-lg"/>
@@ -66,7 +84,7 @@ export default function Buttocks2({navigation}) {
               <Image source={require('../images2/home-decline.png')} className="m-3 w-[382px] h-[200px] rounded-lg"/>
               <Text className="absolute ml-5 mt-44  font-bold text-white ">Decline Push Ups</Text>
             </View>
-          </TouchableOpacity>  
+          </TouchableOpacity>           
           <TouchableOpacity>
             <View>
               <Image source={require('../images2/home-grip-pushup.png')} className="m-3 w-[382px] h-[200px] rounded-lg"/>
@@ -87,8 +105,26 @@ export default function Buttocks2({navigation}) {
           </TouchableOpacity>      
           <TouchableOpacity>
             <View>
-              <Image source={require('../images2/roller.png')} className="m-3 w-[382px] h-[200px] rounded-lg"/>
-              <Text className="absolute ml-5 mt-44  font-bold text-white ">Wheel Roller</Text>
+              <Image source={require('../images2/jumping-jack.png')} className="m-3 w-[382px] h-[200px] rounded-lg"/>
+              <Text className="absolute ml-5 mt-44  font-bold text-white ">Jumping Jack</Text>
+            </View>
+          </TouchableOpacity>      
+          <TouchableOpacity>
+            <View>
+              <Image source={require('../images2/Superman-core.png')} className="m-3 w-[382px] h-[200px] rounded-lg"/>
+              <Text className="absolute ml-5 mt-44  font-bold text-white ">Superman</Text>
+            </View>
+          </TouchableOpacity>      
+          <TouchableOpacity>
+            <View>
+              <Image source={require('../images2/burpees-home.png')} className="m-3 w-[382px] h-[200px] rounded-lg"/>
+              <Text className="absolute ml-5 mt-44  font-bold text-white ">Burpees</Text>
+            </View>
+          </TouchableOpacity>      
+          <TouchableOpacity>
+            <View>
+              <Image source={require('../images2/one-leg-squat.png')} className="m-3 w-[382px] h-[200px] rounded-lg"/>
+              <Text className="absolute ml-5 mt-44  font-bold text-white ">One Leg Squats</Text>
             </View>
           </TouchableOpacity>      
         </ScrollView>

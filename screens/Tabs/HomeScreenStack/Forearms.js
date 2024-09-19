@@ -15,82 +15,46 @@ export default function Forearms({navigation}) {
         <ScrollView className="mt-2 mb-2 h-[630px] ">
           <TouchableOpacity>
             <View>
-              <Image source={require('../images2/cable-pushdown.png')} className="m-3 w-[382px] h-[200px] rounded-lg"/>
-              <Text className="absolute ml-5 mt-44  font-bold text-white ">Cable Push Down</Text>
+              <Image source={require('../images2/cable-wrist-curl.png')} className="m-3 w-[382px] h-[200px] rounded-lg"/>
+              <Text className="absolute ml-5 mt-44  font-bold text-white ">Cable Wrist Curl</Text>
             </View>
           </TouchableOpacity>  
           <TouchableOpacity>
             <View>
-              <Image source={require('../images2/pushdown-1arm-reverse.png')} className="m-3 w-[382px] h-[200px] rounded-lg"/>
-              <Text className="absolute ml-5 mt-44  font-bold text-white ">One Arm Cable Push Down</Text>
+              <Image source={require('../images2/barbell-wrist-curl.png')} className="m-3 w-[382px] h-[200px] rounded-lg"/>
+              <Text className="absolute ml-5 mt-44  font-bold text-white ">Barbell Wrist Curl</Text>
             </View>
           </TouchableOpacity>  
           <TouchableOpacity>
             <View>
-              <Image source={require('../images2/pushdown-reverse.png')} className="m-3 w-[382px] h-[200px] rounded-lg"/>
-              <Text className="absolute ml-5 mt-44  font-bold text-white ">Reverse Cable Push Down</Text>
+              <Image source={require('../images2/reverse-barbell-wrist-curl.png')} className="m-3 w-[382px] h-[200px] rounded-lg"/>
+              <Text className="absolute ml-5 mt-44  font-bold text-white ">Reverse Barbell Wrist Curl</Text>
             </View>
           </TouchableOpacity>  
           <TouchableOpacity>
             <View>
-              <Image source={require('../images2/pushdown-1arm-reverse.png')} className="m-3 w-[382px] h-[200px] rounded-lg"/>
-              <Text className="absolute ml-5 mt-44  font-bold text-white ">Reverse One Arm Cable Push Down</Text>
+              <Image source={require('../images2/barbell-back-wrist-curl.png')} className="m-3 w-[382px] h-[200px] rounded-lg"/>
+              <Text className="absolute ml-5 mt-44  font-bold text-white ">Barbell Behind The Back Wrist Curl</Text>
             </View>
           </TouchableOpacity>  
           <TouchableOpacity>
             <View>
-              <Image source={require('../images2/wide-pull-up.png')} className="m-3 w-[382px] h-[200px] rounded-lg"/>
-              <Text className="absolute ml-5 mt-44  font-bold text-white ">Wide Grip Pull Up</Text>
+              <Image source={require('../images2/dumbbell-hammer-curl.png')} className="m-3 w-[382px] h-[200px] rounded-lg"/>
+              <Text className="absolute ml-5 mt-44  font-bold text-white ">Dumbbell Hammer Curl</Text>
             </View>
-          </TouchableOpacity>  
+          </TouchableOpacity>    
           <TouchableOpacity>
             <View>
-              <Image source={require('../images2/rope-pushdown.png')} className="m-3 w-[382px] h-[200px] rounded-lg"/>
-              <Text className="absolute ml-5 mt-44  font-bold text-white ">Rope Push Down</Text>
+              <Image source={require('../images2/dumbbell-wrist-curl.png')} className="m-3 w-[382px] h-[200px] rounded-lg"/>
+              <Text className="absolute ml-5 mt-44  font-bold text-white ">Dumbbell Wrist Curl</Text>
             </View>
-          </TouchableOpacity>  
+          </TouchableOpacity>    
           <TouchableOpacity>
             <View>
-              <Image source={require('../images2/dips.png')} className="m-3 w-[382px] h-[200px] rounded-lg"/>
-              <Text className="absolute ml-5 mt-44  font-bold text-white ">Dips</Text>
+              <Image source={require('../images2/dumbbell-wrist-reverse.png')} className="m-3 w-[382px] h-[200px] rounded-lg"/>
+              <Text className="absolute ml-5 mt-44  font-bold text-white ">Dumbbell Reverse Wrist Curl</Text>
             </View>
-          </TouchableOpacity>  
-          <TouchableOpacity>
-            <View>
-              <Image source={require('../images2/lying-triceps-extension.png')} className="m-3 w-[382px] h-[200px] rounded-lg"/>
-              <Text className="absolute ml-5 mt-44  font-bold text-white">Lying Triceps Extension</Text>
-            </View>
-          </TouchableOpacity>  
-          <TouchableOpacity>
-            <View>
-              <Image source={require('../images2/dumbbell-triceps-extension.png')} className="m-3 w-[382px] h-[200px] rounded-lg"/>
-              <Text className="absolute ml-5 mt-44  font-bold text-white ">Dumbbell Triceps Extension</Text>
-            </View>
-          </TouchableOpacity>  
-          <TouchableOpacity>
-            <View>
-              <Image source={require('../images2/1arm-triceps-extension.png')} className="m-3 w-[382px] h-[200px] rounded-lg"/>
-              <Text className="absolute ml-5 mt-44  font-bold text-white">One Arm Dumbbell Triceps Extension</Text>
-            </View>
-          </TouchableOpacity>  
-          <TouchableOpacity>
-            <View>
-              <Image source={require('../images2/seated-triceps-extension.png')} className="m-3 w-[382px] h-[200px] rounded-lg"/>
-              <Text className="absolute ml-5 mt-44  font-bold text-white ">Seated Dumbbell Triceps Extension</Text>
-            </View>
-          </TouchableOpacity>  
-          <TouchableOpacity>
-            <View>
-              <Image source={require('../images2/overhead-triceps-extension.png')} className="m-3 w-[382px] h-[200px] rounded-lg"/>
-              <Text className="absolute ml-5 mt-44  font-bold text-white ">Overhead Triceps Extension</Text>
-            </View>
-          </TouchableOpacity>  
-          <TouchableOpacity>
-            <View>
-              <Image source={require('../images2/triceps-kickback.png')} className="m-3 w-[382px] h-[200px] rounded-lg"/>
-              <Text className="absolute ml-5 mt-44  font-bold text-white ">Dumbbell Triceps Kickback</Text>
-            </View>
-          </TouchableOpacity>  
+          </TouchableOpacity>    
         </ScrollView>
     </View>
   )
