@@ -47,7 +47,7 @@ function HomeScreenStack() {
           <HomeStack.Screen name="Forearms" component={ForearmsScreenStack} />
           <HomeStack.Screen name="Buttocks" component={ButtocksScreenStack} />
           <HomeStack.Screen name="Legs" component={LegsScreenStack} />
-          <HomeStack.Screen name="Calfs" component={CalfsScreenStack} />
+          <HomeStack.Screen name="Calfs" component={CalfsScreenStack} />  
         </HomeStack.Navigator>
   )
 }
