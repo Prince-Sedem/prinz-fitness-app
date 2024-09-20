@@ -21,7 +21,8 @@ import Forearms2 from './Forearms2';
 import Buttocks2 from './Buttocks2';
 import Legs2 from './Legs2';
 import Calfs2 from './Calfs2';
-
+import ChestDetailsStack from './ChestDetails/ChestDetailsScreenStack';
+import Chest2DetailsStack from './Chest2Details/Chest2DetailsScreenStack'
 const HomeStack = createNativeStackNavigator();
 const ChestStack = createNativeStackNavigator();
 const AbsStack = createNativeStackNavigator();
@@ -54,10 +55,10 @@ function HomeScreenStack() {
 function ChestScreenStack() {
   return (
         <ChestStack.Navigator>
-          <ChestStack.Screen name="Chest" component={Chest} 
+          <ChestStack.Screen name="Chest" component={ChestDetailsStack} 
           options={{headerShown: false}}
           />
-          <ChestStack.Screen name="Chest2" component={Chest2} 
+          <ChestStack.Screen name="Chest2" component={Chest2DetailsStack} 
           options={{headerShown: false}}
           />
         </ChestStack.Navigator>
