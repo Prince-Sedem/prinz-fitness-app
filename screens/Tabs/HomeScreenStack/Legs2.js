@@ -39,6 +39,18 @@ export default function Legs2({navigation}) {
           </TouchableOpacity> 
           <TouchableOpacity>
             <View>
+              <Image source={require('../images2/walking.png')} className="m-3 w-[382px] h-[200px] rounded-lg"/>
+              <Text className="absolute ml-5 mt-44  font-bold text-white ">Walking</Text>
+            </View>
+          </TouchableOpacity>   
+          <TouchableOpacity>
+            <View>
+              <Image source={require('../images2/jogging.png')} className="m-3 w-[382px] h-[200px] rounded-lg"/>
+              <Text className="absolute ml-5 mt-44  font-bold text-white ">Jogging</Text>
+            </View>
+          </TouchableOpacity> 
+          <TouchableOpacity>
+            <View>
               <Image source={require('../images2/jump-squat.png')} className="m-3 w-[382px] h-[200px] rounded-lg"/>
               <Text className="absolute ml-5 mt-44  font-bold text-white ">Squat Jump</Text>
             </View>

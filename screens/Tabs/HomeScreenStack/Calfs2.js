@@ -12,49 +12,55 @@ export default function Calfs2({navigation}) {
                     <Text className="bg-green-700 mt-4 text-white rounded-lg p-2 pl-4 pr-4">Home Workout</Text>          
                 </TouchableOpacity>
         </View>
-        <ScrollView className="mt-2 mb-2 h-[630px] ">
+        <ScrollView className="mt-2 mb-2 h-[630px] "> 
           <TouchableOpacity>
             <View>
-              <Image source={require('../images2/crunches.png')} className="m-3 w-[382px] h-[200px] rounded-lg"/>
-              <Text className="absolute ml-5 mt-44  font-bold text-white ">Crunches</Text>
+              <Image source={require('../images2/lying-calf-stretch.png')} className="m-3 w-[382px] h-[200px] rounded-lg"/>
+              <Text className="absolute ml-5 mt-44  font-bold text-white ">Lying Calf Stretch</Text>
             </View>
           </TouchableOpacity>  
           <TouchableOpacity>
             <View>
-              <Image source={require('../images2/pelvic-tilt.png')} className="m-3 w-[382px] h-[200px] rounded-lg"/>
-              <Text className="absolute ml-5 mt-44  font-bold text-white ">Pelvic Tilt</Text>
+              <Image source={require('../images2/walking.png')} className="m-3 w-[382px] h-[200px] rounded-lg"/>
+              <Text className="absolute ml-5 mt-44  font-bold text-white ">Walking</Text>
+            </View>
+          </TouchableOpacity>   
+          <TouchableOpacity>
+            <View>
+              <Image source={require('../images2/jogging.png')} className="m-3 w-[382px] h-[200px] rounded-lg"/>
+              <Text className="absolute ml-5 mt-44  font-bold text-white ">Jogging</Text>
+            </View>
+          </TouchableOpacity>   
+          <TouchableOpacity>
+            <View>
+              <Image source={require('../images2/high-knees.png')} className="m-3 w-[382px] h-[200px] rounded-lg"/>
+              <Text className="absolute ml-5 mt-44  font-bold text-white ">High Knees</Text>
+            </View>
+          </TouchableOpacity>   
+          <TouchableOpacity>
+            <View>
+              <Image source={require('../images2/lunge-home.png')} className="m-3 w-[382px] h-[200px] rounded-lg"/>
+              <Text className="absolute ml-5 mt-44  font-bold text-white ">Lunge</Text>
             </View>
           </TouchableOpacity> 
           <TouchableOpacity>
             <View>
-              <Image source={require('../images2/sit-ups.png')} className="m-3 w-[382px] h-[200px] rounded-lg"/>
-              <Text className="absolute ml-5 mt-44  font-bold text-white ">Sit Ups</Text>
+              <Image source={require('../images2/jump-squat.png')} className="m-3 w-[382px] h-[200px] rounded-lg"/>
+              <Text className="absolute ml-5 mt-44  font-bold text-white ">Squat Jump</Text>
+            </View>
+          </TouchableOpacity> 
+          <TouchableOpacity>
+            <View>
+              <Image source={require('../images2/squats-home.png')} className="m-3 w-[382px] h-[200px] rounded-lg"/>
+              <Text className="absolute ml-5 mt-44  font-bold text-white ">Squat</Text>
             </View>
           </TouchableOpacity>  
           <TouchableOpacity>
             <View>
-              <Image source={require('../images2/twist-crunch.png')} className="m-3 w-[382px] h-[200px] rounded-lg"/>
-              <Text className="absolute ml-5 mt-44  font-bold text-white">Twist Crunch</Text>
+              <Image source={require('../images2/step-ups.png')} className="m-3 w-[382px] h-[200px] rounded-lg"/>
+              <Text className="absolute ml-5 mt-44  font-bold text-white">Step Ups</Text>
             </View>
           </TouchableOpacity>   
-          <TouchableOpacity>
-            <View>
-              <Image source={require('../images2/plank.png')} className="m-3 w-[382px] h-[200px] rounded-lg"/>
-              <Text className="absolute ml-5 mt-44  font-bold text-white ">Normal Planks</Text>
-            </View>
-          </TouchableOpacity>  
-          <TouchableOpacity>
-            <View>
-              <Image source={require('../images2/side-plank.png')} className="m-3 w-[382px] h-[200px] rounded-lg"/>
-              <Text className="absolute ml-5 mt-44  font-bold text-white ">Side Plank</Text>
-            </View>
-          </TouchableOpacity>   
-          <TouchableOpacity>
-            <View>
-              <Image source={require('../images2/home-chest-press.png')} className="m-3 w-[382px] h-[200px] rounded-lg"/>
-              <Text className="absolute ml-5 mt-44  font-bold text-white ">Push Ups</Text>
-            </View>
-          </TouchableOpacity>  
           <TouchableOpacity>
             <View>
               <Image source={require('../images2/home-incline.png')} className="m-3 w-[382px] h-[200px] rounded-lg"/>
@@ -66,19 +72,7 @@ export default function Calfs2({navigation}) {
               <Image source={require('../images2/home-decline.png')} className="m-3 w-[382px] h-[200px] rounded-lg"/>
               <Text className="absolute ml-5 mt-44  font-bold text-white ">Decline Push Ups</Text>
             </View>
-          </TouchableOpacity>  
-          <TouchableOpacity>
-            <View>
-              <Image source={require('../images2/home-grip-pushup.png')} className="m-3 w-[382px] h-[200px] rounded-lg"/>
-              <Text className="absolute ml-5 mt-44  font-bold text-white ">Close Grip Push Ups</Text>
-            </View>
-          </TouchableOpacity>      
-          <TouchableOpacity>
-            <View>
-              <Image source={require('../images2/cobra-pushups.png')} className="m-3 w-[382px] h-[200px] rounded-lg"/>
-              <Text className="absolute ml-5 mt-44  font-bold text-white ">Cobra Push Ups</Text>
-            </View>
-          </TouchableOpacity>      
+          </TouchableOpacity>        
           <TouchableOpacity>
             <View>
               <Image source={require('../images2/climbing-mountain.png')} className="m-3 w-[382px] h-[200px] rounded-lg"/>
@@ -87,8 +81,32 @@ export default function Calfs2({navigation}) {
           </TouchableOpacity>      
           <TouchableOpacity>
             <View>
-              <Image source={require('../images2/roller.png')} className="m-3 w-[382px] h-[200px] rounded-lg"/>
-              <Text className="absolute ml-5 mt-44  font-bold text-white ">Wheel Roller</Text>
+              <Image source={require('../images2/jumping-jack.png')} className="m-3 w-[382px] h-[200px] rounded-lg"/>
+              <Text className="absolute ml-5 mt-44  font-bold text-white ">Jumping Jack</Text>
+            </View>
+          </TouchableOpacity>      
+          <TouchableOpacity>
+            <View>
+              <Image source={require('../images2/Superman-core.png')} className="m-3 w-[382px] h-[200px] rounded-lg"/>
+              <Text className="absolute ml-5 mt-44  font-bold text-white ">Superman</Text>
+            </View>
+          </TouchableOpacity>      
+          <TouchableOpacity>
+            <View>
+              <Image source={require('../images2/burpees-home.png')} className="m-3 w-[382px] h-[200px] rounded-lg"/>
+              <Text className="absolute ml-5 mt-44  font-bold text-white ">Burpees</Text>
+            </View>
+          </TouchableOpacity>      
+          <TouchableOpacity>
+            <View>
+              <Image source={require('../images2/one-leg-squat.png')} className="m-3 w-[382px] h-[200px] rounded-lg"/>
+              <Text className="absolute ml-5 mt-44  font-bold text-white ">One Leg Squat</Text>
+            </View>
+          </TouchableOpacity>      
+          <TouchableOpacity>
+            <View>
+              <Image source={require('../images2/standing-calf-raise.png')} className="m-3 w-[382px] h-[200px] rounded-lg"/>
+              <Text className="absolute ml-5 mt-44  font-bold text-white ">Standing Calf Raise</Text>
             </View>
           </TouchableOpacity>      
         </ScrollView>
