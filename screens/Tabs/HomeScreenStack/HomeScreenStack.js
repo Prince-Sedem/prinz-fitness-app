@@ -22,7 +22,11 @@ import Buttocks2 from './Buttocks2';
 import Legs2 from './Legs2';
 import Calfs2 from './Calfs2';
 import ChestDetailsStack from './ChestDetails/ChestDetailsScreenStack';
-import Chest2DetailsStack from './Chest2Details/Chest2DetailsScreenStack'
+import Chest2DetailsStack from './Chest2Details/Chest2DetailsScreenStack';
+import AbsDetailsStack from './AbsDetails/AbsDetailsScreenStack';
+import Abs2DetailsStack from './Abs2Details/Abs2DetailsScreenStack';
+
+
 const HomeStack = createNativeStackNavigator();
 const ChestStack = createNativeStackNavigator();
 const AbsStack = createNativeStackNavigator();
@@ -67,10 +71,10 @@ function ChestScreenStack() {
 function AbsScreenStack() {
   return (
         <AbsStack.Navigator>
-          <AbsStack.Screen name="Abs" component={Abs} 
+          <AbsStack.Screen name="Abs" component={AbsDetailsStack} 
           options={{headerShown: false}}
           />
-          <AbsStack.Screen name="Abs2" component={Abs2} 
+          <AbsStack.Screen name="Abs2" component={Abs2DetailsStack} 
           options={{headerShown: false}}
           />
         </AbsStack.Navigator>
