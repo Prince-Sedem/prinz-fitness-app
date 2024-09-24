@@ -13,19 +13,19 @@ export default function Biceps2({navigation}) {
                 </TouchableOpacity>
         </View>
         <ScrollView className="mt-2 mb-2 h-[630px]">
-          <TouchableOpacity>
+          <TouchableOpacity onPress={() => navigation.navigate("MountainClimber")}>
             <View>
               <Image source={require('../images2/climbing-mountain.png')} className="m-3 w-[382px] h-[200px] rounded-lg"/>
               <Text className="absolute ml-5 mt-44  font-bold text-white ">Mountain Climber</Text>
             </View>
           </TouchableOpacity>  
-          <TouchableOpacity>
+          <TouchableOpacity onPress={() => navigation.navigate("Burpees")}>
             <View>
               <Image source={require('../images2/burpees-home.png')} className="m-3 w-[382px] h-[200px] rounded-lg"/>
               <Text className="absolute ml-5 mt-44  font-bold text-white ">Burpees</Text>
             </View>
           </TouchableOpacity>  
-          <TouchableOpacity>
+          <TouchableOpacity onPress={() => navigation.navigate("PushUpsHome")}>
             <View>
               <Image source={require('../images2/push-ups.png')} className="m-3 w-[382px] h-[200px] rounded-lg"/>
               <Text className="absolute ml-5 mt-44  font-bold text-white ">Push Ups</Text>
