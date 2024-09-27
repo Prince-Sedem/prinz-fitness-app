@@ -13,79 +13,79 @@ export default function Triceps({navigation}) {
                 </TouchableOpacity>
         </View>
         <ScrollView className="mt-2 mb-2 h-[630px] ">
-          <TouchableOpacity>
+          <TouchableOpacity onPress={() => navigation.navigate("CablePushDown")}>
             <View>
               <Image source={require('../images2/cable-pushdown.png')} className="m-3 w-[382px] h-[200px] rounded-lg"/>
               <Text className="absolute ml-5 mt-44  font-bold text-white ">Cable Push Down</Text>
             </View>
           </TouchableOpacity>  
-          <TouchableOpacity>
+          <TouchableOpacity onPress={() => navigation.navigate("OneArmCablePushDown")}>
             <View>
               <Image source={require('../images2/pushdown-1arm-reverse.png')} className="m-3 w-[382px] h-[200px] rounded-lg"/>
               <Text className="absolute ml-5 mt-44  font-bold text-white ">One Arm Cable Push Down</Text>
             </View>
           </TouchableOpacity>  
-          <TouchableOpacity>
+          <TouchableOpacity onPress={() => navigation.navigate("ReverseCablePushDown")}>
             <View>
               <Image source={require('../images2/pushdown-reverse.png')} className="m-3 w-[382px] h-[200px] rounded-lg"/>
               <Text className="absolute ml-5 mt-44  font-bold text-white ">Reverse Cable Push Down</Text>
             </View>
           </TouchableOpacity>  
-          <TouchableOpacity>
+          <TouchableOpacity onPress={() => navigation.navigate("ReverseOneArmCablePushDown")}>
             <View>
               <Image source={require('../images2/pushdown-1arm-reverse.png')} className="m-3 w-[382px] h-[200px] rounded-lg"/>
               <Text className="absolute ml-5 mt-44  font-bold text-white ">Reverse One Arm Cable Push Down</Text>
             </View>
           </TouchableOpacity>  
-          <TouchableOpacity>
+          <TouchableOpacity onPress={() => navigation.navigate("WideGripPullUp")}>
             <View>
               <Image source={require('../images2/wide-pull-up.png')} className="m-3 w-[382px] h-[200px] rounded-lg"/>
               <Text className="absolute ml-5 mt-44  font-bold text-white ">Wide Grip Pull Up</Text>
             </View>
           </TouchableOpacity>  
-          <TouchableOpacity>
+          <TouchableOpacity onPress={() => navigation.navigate("RopePushDown")}>
             <View>
               <Image source={require('../images2/rope-pushdown.png')} className="m-3 w-[382px] h-[200px] rounded-lg"/>
               <Text className="absolute ml-5 mt-44  font-bold text-white ">Rope Push Down</Text>
             </View>
           </TouchableOpacity>  
-          <TouchableOpacity>
+          <TouchableOpacity onPress={() => navigation.navigate("Dips")}>
             <View>
               <Image source={require('../images2/dips.png')} className="m-3 w-[382px] h-[200px] rounded-lg"/>
               <Text className="absolute ml-5 mt-44  font-bold text-white ">Dips</Text>
             </View>
           </TouchableOpacity>  
-          <TouchableOpacity>
+          <TouchableOpacity onPress={() => navigation.navigate("LyingTricepsExtension")}>
             <View>
               <Image source={require('../images2/lying-triceps-extension.png')} className="m-3 w-[382px] h-[200px] rounded-lg"/>
               <Text className="absolute ml-5 mt-44  font-bold text-white">Lying Triceps Extension</Text>
             </View>
           </TouchableOpacity>  
-          <TouchableOpacity>
+          <TouchableOpacity onPress={() => navigation.navigate("DumbbellTricepsExtension")}>
             <View>
               <Image source={require('../images2/dumbbell-triceps-extension.png')} className="m-3 w-[382px] h-[200px] rounded-lg"/>
               <Text className="absolute ml-5 mt-44  font-bold text-white ">Dumbbell Triceps Extension</Text>
             </View>
           </TouchableOpacity>  
-          <TouchableOpacity>
+          <TouchableOpacity onPress={() => navigation.navigate("OneArmDumbbellTricepsExtension")}>
             <View>
               <Image source={require('../images2/1arm-triceps-extension.png')} className="m-3 w-[382px] h-[200px] rounded-lg"/>
               <Text className="absolute ml-5 mt-44  font-bold text-white">One Arm Dumbbell Triceps Extension</Text>
             </View>
           </TouchableOpacity>  
-          <TouchableOpacity>
+          <TouchableOpacity onPress={() => navigation.navigate("SeatedDumbbellTricepsExtension")}>
             <View>
               <Image source={require('../images2/seated-triceps-extension.png')} className="m-3 w-[382px] h-[200px] rounded-lg"/>
               <Text className="absolute ml-5 mt-44  font-bold text-white ">Seated Dumbbell Triceps Extension</Text>
             </View>
           </TouchableOpacity>  
-          <TouchableOpacity>
+          <TouchableOpacity onPress={() => navigation.navigate("OverheadTricepsExtension")}>
             <View>
               <Image source={require('../images2/overhead-triceps-extension.png')} className="m-3 w-[382px] h-[200px] rounded-lg"/>
               <Text className="absolute ml-5 mt-44  font-bold text-white ">Overhead Triceps Extension</Text>
             </View>
           </TouchableOpacity>  
-          <TouchableOpacity>
+          <TouchableOpacity onPress={() => navigation.navigate("DumbbellTricepsKickback")}>
             <View>
               <Image source={require('../images2/triceps-kickback.png')} className="m-3 w-[382px] h-[200px] rounded-lg"/>
               <Text className="absolute ml-5 mt-44  font-bold text-white ">Dumbbell Triceps Kickback</Text>
