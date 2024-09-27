@@ -27,6 +27,8 @@ import AbsDetailsStack from './AbsDetails/AbsDetailsScreenStack';
 import Abs2DetailsStack from './Abs2Details/Abs2DetailsScreenStack';
 import BicepsDetailsStack from './BicepsDetails/BicepsDetailsScreenStack';
 import Biceps2DetailsStack from './Biceps2Details/Biceps2DetailsScreenStack';
+import TricepsDetailsStack from './TricepsDetails/TricepsDetailsScreenStack';
+import Triceps2DetailsStack from './Triceps2Details/Triceps2DetailsScreenStack';
 
 
 const HomeStack = createNativeStackNavigator();
@@ -97,10 +99,10 @@ function BicepsScreenStack() {
 function TricepsScreenStack() {
   return (
         <TricepsStack.Navigator>
-          <TricepsStack.Screen name="Triceps" component={Triceps} 
+          <TricepsStack.Screen name="Triceps" component={TricepsDetailsStack} 
           options={{headerShown: false}}
           />
-          <TricepsStack.Screen name="Triceps2" component={Triceps2} 
+          <TricepsStack.Screen name="Triceps2" component={Triceps2DetailsStack} 
           options={{headerShown: false}}
           />
         </TricepsStack.Navigator>
