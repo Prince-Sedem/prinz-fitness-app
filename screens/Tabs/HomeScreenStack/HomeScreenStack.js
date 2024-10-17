@@ -31,6 +31,8 @@ import TricepsDetailsStack from './TricepsDetails/TricepsDetailsScreenStack';
 import Triceps2DetailsStack from './Triceps2Details/Triceps2DetailsScreenStack';
 import BackDetailsStack from './BackDetails/BackDetailsScreenStack';
 import Back2DetailsStack from './Back2Details/Back2DetailsScreenStack';
+import ShouldersDetailsStack from './ShouldersDetails/ShouldersDetailsScreenStack';
+import Shoulders2DetailsStack from './Shoulders2Details/Shoulders2DetailsScreenStack';
 
 
 const HomeStack = createNativeStackNavigator();
@@ -110,7 +112,7 @@ function TricepsScreenStack() {
         </TricepsStack.Navigator>
   )
 }
-function BackScreenStack() {
+function BackScreenStack() {  
   return (
         <BackStack.Navigator>
           <BackStack.Screen name="Back" component={BackDetailsStack} 
@@ -125,10 +127,10 @@ function BackScreenStack() {
 function ShouldersScreenStack() {
   return (
         <ShouldersStack.Navigator>
-          <ShouldersStack.Screen name="Shoulders" component={Shoulders} 
+          <ShouldersStack.Screen name="Shoulders" component={ShouldersDetailsStack} 
           options={{headerShown: false}}
           />
-          <ShouldersStack.Screen name="Shoulders2" component={Shoulders2} 
+          <ShouldersStack.Screen name="Shoulders2" component={Shoulders2DetailsStack} 
           options={{headerShown: false}}
           />
         </ShouldersStack.Navigator>
