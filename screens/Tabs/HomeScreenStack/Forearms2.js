@@ -13,13 +13,13 @@ export default function Forearms2({navigation}) {
                 </TouchableOpacity>
         </View>
         <ScrollView className="mt-2 mb-2 h-[630px] ">
-          <TouchableOpacity>
+          <TouchableOpacity onPress={() => navigation.navigate("WristCircles")}>
             <View>
               <Image source={require('../images2/wrist-circles.png')} className="m-3 w-[382px] h-[200px] rounded-lg"/>
               <Text className="absolute ml-5 mt-44  font-bold text-white ">Wrist Circles</Text>
             </View>
           </TouchableOpacity>  
-          <TouchableOpacity>
+          <TouchableOpacity onPress={() => navigation.navigate("Burpees")}>
             <View>
               <Image source={require('../images2/burpees-home.png')} className="m-3 w-[382px] h-[200px] rounded-lg"/>
               <Text className="absolute ml-5 mt-44  font-bold text-white ">Burpees</Text>

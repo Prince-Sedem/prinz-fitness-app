@@ -13,43 +13,43 @@ export default function Forearms({navigation}) {
                 </TouchableOpacity>
         </View>
         <ScrollView className="mt-2 mb-2 h-[630px] ">
-          <TouchableOpacity>
+          <TouchableOpacity onPress={() => navigation.navigate("CableWristCurl")}>
             <View>
               <Image source={require('../images2/cable-wrist-curl.png')} className="m-3 w-[382px] h-[200px] rounded-lg"/>
               <Text className="absolute ml-5 mt-44  font-bold text-white ">Cable Wrist Curl</Text>
             </View>
           </TouchableOpacity>  
-          <TouchableOpacity>
+          <TouchableOpacity onPress={() => navigation.navigate("BarbellWristCurl")}>
             <View>
               <Image source={require('../images2/barbell-wrist-curl.png')} className="m-3 w-[382px] h-[200px] rounded-lg"/>
               <Text className="absolute ml-5 mt-44  font-bold text-white ">Barbell Wrist Curl</Text>
             </View>
           </TouchableOpacity>  
-          <TouchableOpacity>
+          <TouchableOpacity onPress={() => navigation.navigate("ReverseBarbellWristCurl")}>
             <View>
               <Image source={require('../images2/reverse-barbell-wrist-curl.png')} className="m-3 w-[382px] h-[200px] rounded-lg"/>
               <Text className="absolute ml-5 mt-44  font-bold text-white ">Reverse Barbell Wrist Curl</Text>
             </View>
           </TouchableOpacity>  
-          <TouchableOpacity>
+          <TouchableOpacity onPress={() => navigation.navigate("BarbellBehindTheBackWristCurl")}>
             <View>
               <Image source={require('../images2/barbell-back-wrist-curl.png')} className="m-3 w-[382px] h-[200px] rounded-lg"/>
               <Text className="absolute ml-5 mt-44  font-bold text-white ">Barbell Behind The Back Wrist Curl</Text>
             </View>
           </TouchableOpacity>  
-          <TouchableOpacity>
+          <TouchableOpacity onPress={() => navigation.navigate("DumbbellHammerCurl")}>
             <View>
               <Image source={require('../images2/dumbbell-hammer-curl.png')} className="m-3 w-[382px] h-[200px] rounded-lg"/>
               <Text className="absolute ml-5 mt-44  font-bold text-white ">Dumbbell Hammer Curl</Text>
             </View>
           </TouchableOpacity>    
-          <TouchableOpacity>
+          <TouchableOpacity onPress={() => navigation.navigate("DumbbellWristCurl")}>
             <View>
               <Image source={require('../images2/dumbbell-wrist-curl.png')} className="m-3 w-[382px] h-[200px] rounded-lg"/>
               <Text className="absolute ml-5 mt-44  font-bold text-white ">Dumbbell Wrist Curl</Text>
             </View>
           </TouchableOpacity>    
-          <TouchableOpacity>
+          <TouchableOpacity onPress={() => navigation.navigate("DumbbellReverseWristCurl")}>
             <View>
               <Image source={require('../images2/dumbbell-wrist-reverse.png')} className="m-3 w-[382px] h-[200px] rounded-lg"/>
               <Text className="absolute ml-5 mt-44  font-bold text-white ">Dumbbell Reverse Wrist Curl</Text>
