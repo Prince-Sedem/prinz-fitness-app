@@ -13,120 +13,78 @@ export default function Buttocks2({navigation}) {
                 </TouchableOpacity>
         </View>
         <ScrollView className="mt-2 mb-2 h-[630px] ">
-          <TouchableOpacity>
+          <TouchableOpacity onPress={() => navigation.navigate("Bridging")}>
             <View>
               <Image source={require('../images2/bridging-workout.png')} className="m-3 w-[382px] h-[200px] rounded-lg"/>
               <Text className="absolute ml-5 mt-44  font-bold text-white ">Bridging</Text>
             </View>
           </TouchableOpacity>  
-          <TouchableOpacity>
+          <TouchableOpacity onPress={() => navigation.navigate("Lunge")}>
             <View>
               <Image source={require('../images2/lunge-home.png')} className="m-3 w-[382px] h-[200px] rounded-lg"/>
               <Text className="absolute ml-5 mt-44  font-bold text-white ">Lunge</Text>
             </View>
           </TouchableOpacity> 
-          <TouchableOpacity>
+          <TouchableOpacity onPress={() => navigation.navigate("SquatJump")}>
             <View>
               <Image source={require('../images2/jump-squat.png')} className="m-3 w-[382px] h-[200px] rounded-lg"/>
-              <Text className="absolute ml-5 mt-44  font-bold text-white ">Squats Jump</Text>
+              <Text className="absolute ml-5 mt-44  font-bold text-white ">Squat Jump</Text>
             </View>
           </TouchableOpacity> 
-          <TouchableOpacity>
+          <TouchableOpacity onPress={() => navigation.navigate("Squats")}>
             <View>
               <Image source={require('../images2/squats-home.png')} className="m-3 w-[382px] h-[200px] rounded-lg"/>
               <Text className="absolute ml-5 mt-44  font-bold text-white ">Squats</Text>
             </View>
           </TouchableOpacity> 
-          <TouchableOpacity>
+          <TouchableOpacity onPress={() => navigation.navigate("FlutterKicks")}>
             <View>
               <Image source={require('../images2/flutter-kicks.png')} className="m-3 w-[382px] h-[200px] rounded-lg"/>
               <Text className="absolute ml-5 mt-44  font-bold text-white ">Flutter Kicks</Text>
             </View>
           </TouchableOpacity> 
-          <TouchableOpacity>
+          <TouchableOpacity onPress={() => navigation.navigate("FloorHipExtension")}>
             <View>
               <Image source={require('../images2/floor-hip-extension.png')} className="m-3 w-[382px] h-[200px] rounded-lg"/>
               <Text className="absolute ml-5 mt-44  font-bold text-white ">Floor Hip Extension</Text>
             </View>
           </TouchableOpacity> 
-          <TouchableOpacity>
+          <TouchableOpacity onPress={() => navigation.navigate("LegRaise")}>
             <View>
               <Image source={require('../images2/leg-raise.png')} className="m-3 w-[382px] h-[200px] rounded-lg"/>
               <Text className="absolute ml-5 mt-44  font-bold text-white ">Leg Raise</Text>
             </View>
           </TouchableOpacity>   
-          <TouchableOpacity>
+          <TouchableOpacity onPress={() => navigation.navigate("StepUps")}>
             <View>
               <Image source={require('../images2/step-ups.png')} className="m-3 w-[382px] h-[200px] rounded-lg"/>
               <Text className="absolute ml-5 mt-44  font-bold text-white">Step Ups</Text>
             </View>
-          </TouchableOpacity>   
-          <TouchableOpacity>
-            <View>
-              <Image source={require('../images2/plank.png')} className="m-3 w-[382px] h-[200px] rounded-lg"/>
-              <Text className="absolute ml-5 mt-44  font-bold text-white ">Normal Planks</Text>
-            </View>
-          </TouchableOpacity>  
-          <TouchableOpacity>
-            <View>
-              <Image source={require('../images2/side-plank.png')} className="m-3 w-[382px] h-[200px] rounded-lg"/>
-              <Text className="absolute ml-5 mt-44  font-bold text-white ">Side Plank</Text>
-            </View>
-          </TouchableOpacity>
-          <TouchableOpacity>
-            <View>
-              <Image source={require('../images2/home-incline.png')} className="m-3 w-[382px] h-[200px] rounded-lg"/>
-              <Text className="absolute ml-5 mt-44  font-bold text-white ">Incline Push Ups</Text>
-            </View>
-          </TouchableOpacity>  
-          <TouchableOpacity>
-            <View>
-              <Image source={require('../images2/home-decline.png')} className="m-3 w-[382px] h-[200px] rounded-lg"/>
-              <Text className="absolute ml-5 mt-44  font-bold text-white ">Decline Push Ups</Text>
-            </View>
-          </TouchableOpacity>           
-          <TouchableOpacity>
-            <View>
-              <Image source={require('../images2/home-grip-pushup.png')} className="m-3 w-[382px] h-[200px] rounded-lg"/>
-              <Text className="absolute ml-5 mt-44  font-bold text-white ">Close Grip Push Ups</Text>
-            </View>
-          </TouchableOpacity>      
-          <TouchableOpacity>
-            <View>
-              <Image source={require('../images2/cobra-pushups.png')} className="m-3 w-[382px] h-[200px] rounded-lg"/>
-              <Text className="absolute ml-5 mt-44  font-bold text-white ">Cobra Push Ups</Text>
-            </View>
-          </TouchableOpacity>      
-          <TouchableOpacity>
+          </TouchableOpacity>               
+          <TouchableOpacity onPress={() => navigation.navigate("MountainClimber")}>
             <View>
               <Image source={require('../images2/climbing-mountain.png')} className="m-3 w-[382px] h-[200px] rounded-lg"/>
               <Text className="absolute ml-5 mt-44  font-bold text-white ">Mountain Climber</Text>
             </View>
           </TouchableOpacity>      
-          <TouchableOpacity>
+          <TouchableOpacity onPress={() => navigation.navigate("JumpingJack")}>
             <View>
               <Image source={require('../images2/jumping-jack.png')} className="m-3 w-[382px] h-[200px] rounded-lg"/>
               <Text className="absolute ml-5 mt-44  font-bold text-white ">Jumping Jack</Text>
             </View>
           </TouchableOpacity>      
-          <TouchableOpacity>
+          <TouchableOpacity onPress={() => navigation.navigate("Superman")}>
             <View>
               <Image source={require('../images2/Superman-core.png')} className="m-3 w-[382px] h-[200px] rounded-lg"/>
               <Text className="absolute ml-5 mt-44  font-bold text-white ">Superman</Text>
             </View>
           </TouchableOpacity>      
-          <TouchableOpacity>
+          <TouchableOpacity onPress={() => navigation.navigate("Burpees")}>
             <View>
               <Image source={require('../images2/burpees-home.png')} className="m-3 w-[382px] h-[200px] rounded-lg"/>
               <Text className="absolute ml-5 mt-44  font-bold text-white ">Burpees</Text>
             </View>
-          </TouchableOpacity>      
-          <TouchableOpacity>
-            <View>
-              <Image source={require('../images2/one-leg-squat.png')} className="m-3 w-[382px] h-[200px] rounded-lg"/>
-              <Text className="absolute ml-5 mt-44  font-bold text-white ">One Leg Squats</Text>
-            </View>
-          </TouchableOpacity>      
+          </TouchableOpacity>           
         </ScrollView>
     </View>
   )
