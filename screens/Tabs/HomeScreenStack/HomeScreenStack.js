@@ -35,7 +35,8 @@ import ShouldersDetailsStack from './ShouldersDetails/ShouldersDetailsScreenStac
 import Shoulders2DetailsStack from './Shoulders2Details/Shoulders2DetailsScreenStack';
 import ForearmsDetailsStack from './ForearmsDetails/ForearmsDetailsScreenStack';
 import Forearms2DetailsStack from './Forearms2Details/Forearms2DetailsScreenStack';
-
+import ButtockDetailsStack from './ButtocksDetails/ButtocksDetailsScreenStack';
+import Buttock2DetailsStack from './Buttocks2Details/Buttocks2DetailsScreenStack';
 
 const HomeStack = createNativeStackNavigator();
 const ChestStack = createNativeStackNavigator();
@@ -153,10 +154,10 @@ function ForearmsScreenStack() {
 function ButtocksScreenStack() {
   return (
         <ButtocksStack.Navigator>
-          <ButtocksStack.Screen name="Buttocks" component={Buttocks} 
+          <ButtocksStack.Screen name="Buttocks" component={ButtockDetailsStack} 
           options={{headerShown: false}}
           />
-          <ButtocksStack.Screen name="Buttocks2" component={Buttocks2} 
+          <ButtocksStack.Screen name="Buttocks2" component={Buttock2DetailsStack} 
           options={{headerShown: false}}
           />
         </ButtocksStack.Navigator>
