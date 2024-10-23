@@ -39,6 +39,8 @@ import ButtockDetailsStack from './ButtocksDetails/ButtocksDetailsScreenStack';
 import Buttock2DetailsStack from './Buttocks2Details/Buttocks2DetailsScreenStack';
 import LegsDetailsStack from './LegsDetails/LegsDetailsScreenStack';
 import Legs2DetailsStack from './Legs2Details/Legs2DetailsScreenStack';
+import CalfsDetailsStack from './CalfsDetails/CalfsDetailsScreenStack'
+import Calfs2DetailsStack from './Calfs2Details/Calfs2DetailsScreenStack'
 
 
 
@@ -184,10 +186,10 @@ function LegsScreenStack() {
 function CalfsScreenStack() {
   return (
         <CalfsStack.Navigator>
-          <CalfsStack.Screen name="Calfs" component={Calfs} 
+          <CalfsStack.Screen name="Calfs" component={CalfsDetailsStack} 
           options={{headerShown: false}}
           />
-          <CalfsStack.Screen name="Calfs2" component={Calfs2} 
+          <CalfsStack.Screen name="Calfs2" component={Calfs2DetailsStack} 
           options={{headerShown: false}}
           />
         </CalfsStack.Navigator>
