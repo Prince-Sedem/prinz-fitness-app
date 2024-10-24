@@ -39,7 +39,7 @@ const LegsStack = createNativeStackNavigator();
 function HomeScreenStack() {
   return (
         <HomeStack.Navigator>
-          <HomeStack.Screen name="HomeEx" component={HomeScreen} />
+          <HomeStack.Screen name="Home" component={HomeScreen} />
           <HomeStack.Screen name="Chest" component={ChestScreenStack} />
           <HomeStack.Screen name="Abs" component={AbsScreenStack} />
           <HomeStack.Screen name="Biceps" component={BicepsScreenStack} />
