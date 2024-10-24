@@ -42,7 +42,7 @@ function App() {
 
 function TabNavigator() {
   return (
-    <Tab.Navigator initialRouteName="Home"
+    <Tab.Navigator initialRouteName="HomeTab"
      screenOptions={{
       tabBarActiveTintColor: "#22c55e",
       tabBarInactiveTintColor: "#5a1c2c",
@@ -54,7 +54,7 @@ function TabNavigator() {
 
      }} >
       <Tab.Screen 
-      name="Home" 
+      name="HomeTab" 
       component={HomeScreenStack}
       options={{title:"Home", tabBarIcon:({focused}) =>  
       (<Image source={require('./assets/images/home.png')} 

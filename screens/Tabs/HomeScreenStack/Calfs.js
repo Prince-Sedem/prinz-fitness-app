@@ -8,7 +8,7 @@ export default function Calfs({navigation}) {
                 <TouchableOpacity >
                     <Text className="bg-green-700 mt-4 text-white rounded-lg p-2 pl-4 pr-4">Gym Workout</Text>          
                 </TouchableOpacity>
-                <TouchableOpacity onPress={() => navigation.navigate("Calfs2")}>
+                <TouchableOpacity onPress={() => navigation.navigate("CalfsEx2")}>
                     <Text className="bg-white mt-4 text-green-700 rounded-lg p-2 pl-4 pr-4 border border-green-700">Home Workout</Text>          
                 </TouchableOpacity>
         </View>

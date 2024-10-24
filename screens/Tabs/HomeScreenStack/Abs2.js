@@ -5,7 +5,7 @@ export default function Abs2({navigation}) {
   return (
     <View>
        <View className="flex-row justify-around"> 
-                <TouchableOpacity onPress={() => navigation.navigate("Abs")}>
+                <TouchableOpacity onPress={() => navigation.navigate("AbsEx")}>
                     <Text className="bg-white mt-4 text-green-700 rounded-lg p-2 pl-4 pr-4 border border-green-700">Gym Workout</Text>          
                 </TouchableOpacity>
                 <TouchableOpacity >
